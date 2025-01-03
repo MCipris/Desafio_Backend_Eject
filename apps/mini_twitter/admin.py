@@ -16,3 +16,6 @@ class Comentarios(admin.ModelAdmin):
     search_fields = ('descricao',)
 
 admin.site.register(Comentario, Comentarios)
+
+class Users(admin.ModelAdmin):
+    list_display = '__all__'
