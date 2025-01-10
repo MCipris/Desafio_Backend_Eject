@@ -14,25 +14,25 @@ Primeiramente é necessário entrar no diretório do projeto, após isso é nece
 
 Comando para entrar no ambiente virtual caso esteja no Windows: 
 ```
-	venv\Scripts\activate.bat
+venv\Scripts\activate.bat
 ```
 Comando para entrar no ambiente virtual caso esteja no Linux ou MacOS:
 ```	    
-    source venv/bin/activate
+source venv/bin/activate
 ```
 Comando para instalar as depêndencias:
 ```	
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 Comandos para checar alterações e criar o banco de dados:
 ```
-	python manage.py makegrations
+python manage.py makegrations
 	
-	python manage.py migrate
+python manage.py migrate
 ```
 Comando para rodar a aplicação:
 ```
-	python manage.py runserver
+python manage.py runserver
 ```
 
 ## 3. Dependências: Principais bibliotecas e versões.
