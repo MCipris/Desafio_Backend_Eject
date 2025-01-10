@@ -1,8 +1,9 @@
-# Desafio_Backend_Eject
+# Documentação da API Mini-Twitter
+## Desafio Trainee Backend Eject 2024.2
 
 ## 1. Sobre o Projeto: Objetivo e funcionalidades principais.
 <p style="text-align: justify;">
-Este projeto tem como objetivo criar uma API REST para um Mini-Twitter, contendo as funcionalidades básicas de realizar criação de usuários, fazer login, criar postagens, além de fazer comentários e curtidas nas postagens.
+Este projeto tem como objetivo criar uma API REST para um Mini-Twitter, contendo as funcionalidades básicas de realizar criação de usuários, fazer login, autenticação com JWT, criar postagens, além de fazer comentários e curtidas nas postagens.
 </p>
 
 ## 2. Instalação e Execução: Passo a passo para configurar e rodar a aplicação.
