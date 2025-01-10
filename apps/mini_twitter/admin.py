@@ -26,8 +26,8 @@ class Comentarios(admin.ModelAdmin):
 admin.site.register(Comentario, Comentarios)
 
 class Curtidas(admin.ModelAdmin):
-    list_display = ('id', 'user',)
-    list_display_links = ('id', 'user',)
+    list_display = ('id', 'usuario',)
+    list_display_links = ('id', 'usuario',)
     list_per_page = 10
 
 admin.site.register(Curtida, Curtidas)
